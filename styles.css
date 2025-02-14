@@ -318,3 +318,27 @@ h2 {
     transform: scale(1.05);
     background: var(--secondary-color);
 } 
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px; /* Adjust max width for larger screens */
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%; /* Make the video fit within the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Optional: Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Optional: Soft shadow */
+}
+
+/* Mobile optimization */
+@media (max-width: 600px) {
+    .video-container {
+        max-width: 90%; /* Adjust width for smaller screens */
+    }
+}
