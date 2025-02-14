@@ -33,19 +33,26 @@ const CONFIG = {
     },
 
     celebration: {
-        title: "My Love Letter to You 💌",
+        title: "YAYYYYY MY FIRST VALENTINE EVER💌",
         message: `
-            My dearest Jaden,  
-            I just want you to know how much you mean to me.  
-            You are the most beautiful, kind, and loving person I have ever known.  
-            Every moment with you feels magical, and I am so grateful to have you in my life.  
+        My dearest Jaden,  
 
-            I LOVE YOU MWAH! 💖  
+        From the moment I met you, I knew you were someone special.  
+        You have the kindest heart, the most beautiful soul, and a smile that lights up my entire world.  
+        Every single day, you amaze me with your loving personality, your warmth, and the way you care so deeply for the people around you.  
+        You don’t just make my days better—you make my life better.  
 
-            You are my happiness, my love, and my forever.  
-            No matter what, I will always cherish you.  
+        I love the way you laugh, the way your eyes sparkle when you’re happy,  
+        and the way you always know how to make everything feel right, no matter what.  
+        You are the most beautiful person inside and out, and I feel so incredibly lucky to have you in my life.  
 
-            Forever yours,  
+        I want you to be my **one and only Valentine—forever.** 💖  
+        No one else could ever take your place in my heart, because you are my heart.  
+        No matter where life takes us, I promise to always cherish, adore, and love you more than words can ever express.  
+
+        **I LOVE YOU MWAH! 💋💞**  
+
+        Forever and always,  
             Ajeer ^_^
         `,
         videoUrl: "https://res.cloudinary.com/dcz8uvcr9/video/upload/v1739496237/Untitled_video_-_Made_with_Clipchamp_1_fxrafm.mp4",  // Change this to your actual video link
