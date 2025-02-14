@@ -33,13 +33,25 @@ const CONFIG = {
     },
 
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"
+        title: "My Love Letter to You 💌",
+        message: `
+            My dearest Jaden,  
+            I just want you to know how much you mean to me.  
+            You are the most beautiful, kind, and loving person I have ever known.  
+            Every moment with you feels magical, and I am so grateful to have you in my life.  
+
+            I LOVE YOU MWAH! 💖  
+
+            You are my happiness, my love, and my forever.  
+            No matter what, I will always cherish you.  
+
+            Forever yours,  
+            Ajeer ^_^
+        `,
+        videoUrl: "https://res.cloudinary.com/dcz8uvcr9/video/upload/v1739496237/Untitled_video_-_Made_with_Clipchamp_1_fxrafm.mp4",  // Change this to your actual video link
     },
 
     colors: {
-        // Remove the old gradient and use an image in CSS instead
         backgroundStart: "transparent", 
         backgroundEnd: "transparent",
         buttonBackground: "#ff6b6b",
@@ -56,7 +68,7 @@ const CONFIG = {
 
     music: {
         enabled: true,
-        autoplay: true, // Force autoplay
+        autoplay: true,
         musicUrl: "https://res.cloudinary.com/dcz8uvcr9/video/upload/v1739492730/Ichiko_Aoba_-_bouquet_Official_Audio_cax2cp.mp3",
         startText: "🔇 Stop Music",
         stopText: "🎵 Play Music",
