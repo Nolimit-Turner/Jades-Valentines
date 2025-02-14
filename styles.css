@@ -324,26 +324,20 @@ h2 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 500px; /* Ensures it does not get too large on desktops */
     margin: 20px auto;
-    overflow: hidden;
 }
 
 .video-container video {
-    width: 100%; /* Make the video fit within the container */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 80vh; /* Prevent it from being too tall on mobile */
-    border-radius: 15px; /* Optional rounded corners */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Optional soft shadow */
+    width: 250px; /* Set a small fixed width */
+    height: 140px; /* Maintain a small fixed height */
+    border-radius: 10px; /* Optional rounded corners */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); /* Optional soft shadow */
 }
 
-/* Mobile optimization */
+/* Mobile Optimization */
 @media (max-width: 600px) {
-    .video-container {
-        max-width: 95%; /* Make it fit better on mobile */
-    }
-
     .video-container video {
-        max-height: 60vh; /* Adjust the height for smaller screens */
+        width: 220px; /* Slightly smaller for mobile */
+        height: 125px;
     }
 }
