@@ -324,7 +324,7 @@ h2 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 500px; /* Adjust max width for larger screens */
+    max-width: 500px; /* Ensures it does not get too large on desktops */
     margin: 20px auto;
     overflow: hidden;
 }
@@ -332,13 +332,18 @@ h2 {
 .video-container video {
     width: 100%; /* Make the video fit within the container */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 15px; /* Optional: Rounded corners */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Optional: Soft shadow */
+    max-height: 80vh; /* Prevent it from being too tall on mobile */
+    border-radius: 15px; /* Optional rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Optional soft shadow */
 }
 
 /* Mobile optimization */
 @media (max-width: 600px) {
     .video-container {
-        max-width: 90%; /* Adjust width for smaller screens */
+        max-width: 95%; /* Make it fit better on mobile */
+    }
+
+    .video-container video {
+        max-height: 60vh; /* Adjust the height for smaller screens */
     }
 }

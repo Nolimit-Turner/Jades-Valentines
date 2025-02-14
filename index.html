@@ -61,19 +61,20 @@
         <button class="cute-btn" onclick="moveButton(this)" id="noBtn3"></button>
     </div>
 
-    <!-- Love Letter Page -->
+    <!-- Final Love Letter Page (Video Only, No Images) -->
     <div class="celebration hidden" id="celebration">
         <h2 id="celebrationTitle"></h2>
         <p class="celebration-text" id="celebrationMessage"></p>
 
-        <!-- Video Section -->
+        <!-- Video Section (AutoPlay + Loop) -->
         <div class="video-container">
-            <video id="loveVideo" controls>
+            <video id="loveVideo" autoplay loop muted playsinline>
                 <source id="videoSource" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
     </div>
+
 
 
 
